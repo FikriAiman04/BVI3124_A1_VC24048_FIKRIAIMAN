@@ -47,3 +47,10 @@ and watering systems.
 ### 3. Smart Parking System Prototype
 An academic project focused on developing a smart parking
 system prototype using automation concepts.
+
+## Live Website
+
+The FIKRIMAN Personal Portfolio Website is published
+using GitHub Pages.
+
+[Visit My Portfolio](https://fikriaiman04.github.io/BVI3124_A1_VC24048_FIKRIAIMAN/)
