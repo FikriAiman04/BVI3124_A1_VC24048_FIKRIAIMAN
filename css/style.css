@@ -1,0 +1,517 @@
+/* Main website design */
+
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    color: #111827;
+    margin: 0;
+}
+
+/* Main heading */
+
+h1 {
+    color: #102A43;
+    font-size: 45px;
+}
+
+/* Second heading */
+
+h2 {
+    color: #3B82F6;
+    font-size: 28px;
+}
+
+/* Paragraph */
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Navigation Bar Design */
+
+header {
+    background-color: #102A43;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #60A5FA;
+}
+
+/* Tablet and Mobile Navigation */
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+}/* Home Page Hero Section */
+
+.hero {
+    padding: 100px 8%;
+    min-height: 450px;
+    background-color: #FFFFFF;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Tablet Screen */
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 70px 6%;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+}
+
+/* Mobile Screen */
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 50px 5%;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+}/* Home Page Buttons */
+
+.btn {
+    display: inline-block;
+    background-color: #3B82F6;
+    color: white;
+    padding: 14px 28px;
+    margin-top: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #102A43;
+    transform: translateY(-3px);
+}/* About Me Page */
+
+.about-section {
+    padding: 80px 8%;
+    max-width: 1100px;
+    margin: auto;
+}/* Skills Page */
+
+.skills-section {
+    padding: 80px 8%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.skills-section h1 {
+    color: #102A43;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.skills-section > p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.skill-card {
+    background-color: #F1F5F9;
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 5px solid #3B82F6;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-card h2 {
+    color: #102A43;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-section {
+        padding: 50px 6%;
+    }
+}/* Projects Page */
+
+.projects-section {
+    padding: 80px 8%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.projects-section h1 {
+    color: #102A43;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.projects-section > p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.project-card {
+    background-color: #F1F5F9;
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 5px solid #3B82F6;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h2 {
+    color: #102A43;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    color: #3B82F6;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-section {
+        padding: 50px 6%;
+    }
+}/* Contact Page */
+
+.contact-section {
+    padding: 80px 8%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact-section h1 {
+    color: #102A43;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.contact-section > p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.contact-info,
+.contact-form {
+    background-color: #F1F5F9;
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 5px solid #3B82F6;
+}
+
+.contact-info h2,
+.contact-form h2 {
+    color: #102A43;
+    margin-bottom: 25px;
+}
+
+.contact-info p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #3B82F6;
+}
+
+.contact-form button {
+    border: none;
+    cursor: pointer;
+}
+
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-section {
+        padding: 50px 6%;
+    }
+}/* Dark Mode Button */
+
+#themeToggle {
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#themeToggle:hover {
+    background-color: #2563EB;
+}
+
+/* Dark Mode Styling */
+
+body.dark-mode {
+    background-color: #0F172A;
+    color: white;
+}
+
+body.dark-mode .hero {
+    background-color: #0F172A;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: #93C5FD;
+}
+
+body.dark-mode .skill-card,
+body.dark-mode .project-card,
+body.dark-mode .contact-info,
+body.dark-mode .contact-form {
+    background-color: #1E293B;
+    color: white;
+}
+
+body.dark-mode .skill-card h2,
+body.dark-mode .project-card h2,
+body.dark-mode .contact-info h2,
+body.dark-mode .contact-form h2 {
+    color: #93C5FD;
+}
+
+body.dark-mode .nav-links a,
+body.dark-mode .logo {
+    color: white;
+}
+/* Project Filtering Buttons */
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.filter-btn {
+    background-color: #E2E8F0;
+    color: #102A43;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: #3B82F6;
+    color: white;
+}
+
+.filter-btn.active {
+    background-color: #3B82F6;
+    color: white;
+}
+
+/* Dark Mode Filter Buttons */
+
+body.dark-mode .filter-btn {
+    background-color: #334155;
+    color: white;
+}
+
+body.dark-mode .filter-btn:hover,
+body.dark-mode .filter-btn.active {
+    background-color: #3B82F6;
+}
+/* Back-to-Top Button */
+
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #102A43;
+}
+
+/* Dark Mode */
+
+body.dark-mode #backToTop {
+    background-color: #3B82F6;
+    color: white;
+}
+
+body.dark-mode #backToTop:hover {
+    background-color: #60A5FA;
+}/* PROJECT IMAGES */
+
+.project-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 20px;
+}
