@@ -33,3 +33,17 @@ Student Name: Fikri Aiman Bin Zarin
 Student ID: VC24048
 
 Course: BVI3124 - Application System Development
+
+## Academic Projects
+
+### 1. Conveyor System and Robotic Arm Integration
+A team project involving the integration of a conveyor system
+and robotic arm for industrial automation applications.
+
+### 2. IoT Smart Feeding and Watering System
+An IoT-based project using ESP32 to monitor chicken feeding
+and watering systems.
+
+### 3. Smart Parking System Prototype
+An academic project focused on developing a smart parking
+system prototype using automation concepts.
