@@ -54,3 +54,15 @@ The FIKRIMAN Personal Portfolio Website is published
 using GitHub Pages.
 
 [Visit My Portfolio](https://fikriaiman04.github.io/BVI3124_A1_VC24048_FIKRIAIMAN/)
+
+## How to Use the Website
+
+1. Open the live website using the link provided above.
+2. Use the navigation menu to explore the five main pages.
+3. Visit the About Me page to learn about my background.
+4. Open the Skills page to view my technical skills.
+5. Visit the Projects page to explore my academic projects.
+6. Use the project filter buttons to view projects by category.
+7. Use the theme toggle button to switch between light and dark modes.
+8. Click Download CV to view my resume.
+9. Visit the Contact page to view my contact information.
